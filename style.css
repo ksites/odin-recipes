@@ -1,13 +1,20 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .mainbody{
   background-color: lightblue;
 
 }
 
-.header {
+.headtext {
   color: red;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   text-decoration:solid;
+  border: 2px solid blue;
+  background-color: lightcoral;
   
 }
 
@@ -24,6 +31,12 @@
 color: aqua;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: lighter;
+border: 2px solid blue;
+width: 400px;
+background-color: lightgray;
+padding: 0px;
+margin: 10px;
+margin-right: auto;
 }
 
 .specail .text{
@@ -38,8 +51,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border: 2px solid blue;
+  padding: 20px;
+
 }
 
 .headtext{
 text-align: center;
+}
+
+.paragraphHeading{
+ color: rebeccapurple;
+ font-size:x-large;
 }
